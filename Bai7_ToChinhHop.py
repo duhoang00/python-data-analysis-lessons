@@ -15,20 +15,28 @@ while True:
         pass
 
 
-def calPermute(n):
-    print(n)
+def calPermute(n):  # n = n! = 1.2.3. ..P. . (n-1).n
     if n == 0:
         return 1
-    return calPermute(n-1) * calPermute(n-2)
+    return calPermute(n-1) * n
 
 
-def calculateComb(n, k):
+def calCombination(n, k):  # Akn = n!/(n-k)!
     if k == 0 or k == n:
         return 1
     if k == 1:
         return n
-    return calculateComb(k-1, n-1) + calculateComb(k, n-1)
+    return calPermute(n)//(calPermute(k)*calPermute(n-k))
 
 
-print("Hoán vị", calPermute(n))
-# print("Tổ hợp =", calculateComb(n=n, k=k))
+def calPermutation(n, k):
+    if k == 0:
+        return 1
+    if k == 1:
+        return n
+    return calPermute(n)//calPermute(n-k)
+
+
+print("Hoán vị =", calPermute(n))
+print("Tổ hợp =", calCombination(n=n, k=k))
+print("Chỉnh hợp=", calPermutation(n=n, k=k))
