@@ -21,7 +21,7 @@ def calPermute(n):  # n = n! = 1.2.3. ..P. . (n-1).n
     return calPermute(n-1) * n
 
 
-def calCombination(n, k):  # Akn = n!/(n-k)!
+def calCombination(n, k):  # Akn = n!/(k!*(n-k)!)
     if k == 0 or k == n:
         return 1
     if k == 1:
@@ -29,7 +29,7 @@ def calCombination(n, k):  # Akn = n!/(n-k)!
     return calPermute(n)//(calPermute(k)*calPermute(n-k))
 
 
-def calPermutation(n, k):
+def calPermutation(n, k):  # Akn = n!/(n-k)!
     if k == 0:
         return 1
     if k == 1:
