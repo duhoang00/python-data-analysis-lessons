@@ -11,7 +11,7 @@ while True:
         pass
 
 sum = 0
-for index in range(n+1):
+for index in range (2, n+1, 2):
     sum += index
 
 print(sum)

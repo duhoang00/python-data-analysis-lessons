@@ -2,9 +2,9 @@ n = 0
 k = 0
 
 while True:
-    print("Nhap n =")
+    print("Nhập n =")
     user_input_n = input()
-    print("Nhap k =")
+    print("Nhập k =")
     user_input_k = input()
     try:
         n = int(user_input_n)

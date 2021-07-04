@@ -1,4 +1,4 @@
-n = 1
+n = 0
 
 while True:
     print("Nhập N =")
@@ -10,8 +10,11 @@ while True:
     except ValueError:
         pass
 
-sum = 0
-for index in range(n+1):
-    sum += index
 
-print(sum)
+def fibo(n):
+    if n == 1 or n == 2:
+        return 1
+    return fibo(n-1) + fibo(n-2)
+
+
+print("Số hạng thứ",n,"của dãy Fibonacci =",fibo(n=n))

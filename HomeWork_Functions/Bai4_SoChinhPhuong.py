@@ -3,7 +3,7 @@ import math
 n = 0
 
 while True:
-    print("Nhap N =")
+    print("Nhập N =")
     user_input = input()
     try:
         n = int(user_input)
