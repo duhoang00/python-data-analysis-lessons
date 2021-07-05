@@ -1,8 +1,7 @@
 n = 1
 
 while True:
-    print("Nhập N =")
-    user_input = input()
+    user_input = input("Nhập N = ")
     try:
         n = int(user_input)
         if n > 0:

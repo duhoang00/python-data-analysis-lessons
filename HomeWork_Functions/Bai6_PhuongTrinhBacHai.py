@@ -5,12 +5,9 @@ b = 0
 c = 0
 
 while True:
-    print("Nhập a =")
-    user_input_a = input()
-    print("Nhập b =")
-    user_input_b = input()
-    print("Nhập c =")
-    user_input_c = input()
+    user_input_a = input("Nhập a = ")
+    user_input_b = input("Nhập b = ")
+    user_input_c = input("Nhập c = ")
     try:
         a = int(user_input_a)
         b = int(user_input_b)

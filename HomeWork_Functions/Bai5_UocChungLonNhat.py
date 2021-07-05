@@ -2,10 +2,8 @@ a = 0
 b = 0
 
 while True:
-    print("Nhập a =")
-    user_input_a = input()
-    print("Nhập b =")
-    user_input_b = input()
+    user_input_a = input("Nhập a = ")
+    user_input_b = input("Nhập b = ")
     try:
         a = int(user_input_a)
         b = int(user_input_b)

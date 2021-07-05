@@ -2,10 +2,8 @@ n = 0
 k = 0
 
 while True:
-    print("Nhập n =")
-    user_input_n = input()
-    print("Nhập k =")
-    user_input_k = input()
+    user_input_n = input("Nhập n = ")
+    user_input_k = input("Nhập k = ")
     try:
         n = int(user_input_n)
         k = int(user_input_k)

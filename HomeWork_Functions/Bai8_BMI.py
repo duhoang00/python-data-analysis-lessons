@@ -2,10 +2,8 @@ w = 0
 h = 0
 
 while True:
-    print("Nhập cân nặng (kg) =")
-    user_input_w = input()
-    print("Nhập chiều cao (m) =")
-    user_input_h = input()
+    user_input_w = input("Nhập cân nặng (kg) = ")
+    user_input_h = input("Nhập chiều cao (m) = ")
     try:
         w = float(user_input_w)
         h = float(user_input_h)
