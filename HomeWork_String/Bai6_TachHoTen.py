@@ -2,7 +2,6 @@ fullName = input("Nhập họ và tên: ").lower()
 
 arr = fullName.split()
 
-
 try:
     print("Họ:", arr[0].capitalize())
     if len(arr) > 2:

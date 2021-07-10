@@ -2,7 +2,6 @@ s = input("Nhập chuỗi: ")
 
 arr = s.split("-")
 
-print(arr)
 
 for words in arr:
     number = ""
