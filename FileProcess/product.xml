@@ -1,0 +1,13 @@
+<?xml version="1.0" encoduing="utf-8"?>
+<products>
+    <product>
+        <id>1</id>
+        <name>Tiger</name>
+        <price>330000</price>
+    </product>
+    <product>
+        <id>2</id>
+        <name>Sapporo</name>
+        <price>328000</price>
+    </product>
+</products>
