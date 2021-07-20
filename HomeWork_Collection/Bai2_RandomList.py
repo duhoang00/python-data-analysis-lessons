@@ -1,6 +1,5 @@
 import random
 
-
 list_length = input("Nhập độ dài list mong muốn của bạn: ")
 list_random_range = input("Nhập khoảng giá trị bạn muốn random vào list: ")
 k = input("Nhập giá trị k muốn xóa trong list: ")
